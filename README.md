@@ -9,6 +9,7 @@ This project provides 2 main applications, of 4, for real-time voice communicati
 1. c_talk.py - (computer_talk) Basic LiveKit client with PC microphone/speaker I/O
 2. p_talk_v2.py - (pepper_talk) An advanced version connects Emoex with  Pepper robot integration
 3. make_env.py - Utility script for generating LiveKit credentials from EmoEx AI
+4. latencytracker.py - For measuring/tracking exchanges in conversation between user and agent/Pepper
 
 ## Features
 
@@ -19,16 +20,14 @@ This project provides 2 main applications, of 4, for real-time voice communicati
 - RMS-based noise gate and volume visualization
 - Statistical tracking of latency measurements
 
-## Requirements
-
-### Python Packages
+## Required Python Packages
 livekit
 pyaudio
 numpy
 python-dotenv
 requests
 
-### Additional Requirements (for p_talk_v2.py)
+### Additional Requirements for Integration with Pepper (for p_talk_v2.py)
 - Pepper robot connectivity
 - `qi` SDK for Pepper robot communication
 
