@@ -1,6 +1,6 @@
 EmoEx Live Chat - Voice Latency Tracking
 
-A set of Python scripts for bridging LiveKit audio rooms with microphone input, featuring real-time voice activity detection and latency measurement.
+A set of Python scripts for bridging Emoex-LiveKit audio rooms with microphone input (on PC or Pepper), featuring real-time voice activity detection and latency measurement.
 
 ## Overview
 
