@@ -4,7 +4,7 @@ A set of Python scripts for bridging LiveKit audio rooms with microphone input, 
 
 ## Overview
 
-This project provides two main applications for real-time voice communication:
+This project provides 2 main applications, of 4, for real-time voice communication:
 
 1. c_talk.py - (computer_talk) Basic LiveKit client with PC microphone/speaker I/O
 2. p_talk_v2.py - (pepper_talk) An advanced version connects Emoex with  Pepper robot integration
